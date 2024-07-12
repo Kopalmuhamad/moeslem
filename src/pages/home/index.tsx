@@ -81,7 +81,7 @@ const Home: React.FC = () => {
   return (
     <MainLayout>
       <div
-        className="bg-[url('../../../public/mosque.jpg')] bg-cover bg-no-repeat bg-bottom min-w-full min-h-full"
+        className="bg-[url('/public/mosque.jpg')] bg-cover bg-no-repeat bg-bottom min-w-full min-h-full"
         style={{ boxShadow: "inset 0 0 0 2000px rgba(0, 0, 0, 0.5)" }}
       >
         <div className="container mx-auto min-h-[60vh] sm:min-h-screen pt-[78px] flex items-center justify-center text-center flex-col gap-4">
